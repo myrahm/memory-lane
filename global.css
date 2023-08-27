@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  line-height: normal;
+  zoom: 0.75;
+  width: extend-to-zoom;
+}
+
+:root {
+  /* fonts */
+  --font-sen: Sen;
+
+  /* font sizes */
+  --font-size-26xl: 45px;
+  --font-size-109xl: 128px;
+  --font-size-29xl: 48px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-white: #fff;
+}

@@ -1,0 +1,120 @@
+.lane-text,
+.lane-text1 {
+  position: absolute;
+  display: inline-block;
+}
+.lane-text {
+  top: 163px;
+  left: calc(50% - 960px);
+  font-size: var(--font-size-109xl);
+  width: 1950px;
+  height: 227px;
+}
+.lane-text1 {
+  top: 837px;
+  left: calc(50% - 840px);
+  width: 535px;
+  height: 59px;
+}
+.lane-text2,
+.lane-text3,
+.lane-text4,
+.myrah-name,
+.roxie-name-text {
+  position: absolute;
+  top: 837px;
+  left: calc(50% - 342px);
+  display: inline-block;
+  width: 302px;
+  height: 59px;
+}
+.lane-text3,
+.lane-text4,
+.myrah-name,
+.roxie-name-text {
+  left: calc(50% + 39px);
+}
+.lane-text4,
+.myrah-name,
+.roxie-name-text {
+  left: calc(50% + 420px);
+}
+.myrah-name,
+.roxie-name-text {
+  top: 711px;
+  left: calc(50% - 773px);
+  font-size: var(--font-size-29xl);
+  width: 402px;
+  height: 176px;
+}
+.roxie-name-text {
+  left: calc(50% - 392px);
+}
+.shanaya {
+  margin: 0;
+}
+.lynn-name-text-container,
+.shanaya-name-text-container {
+  position: absolute;
+  top: 711px;
+  left: calc(50% - 11px);
+  font-size: var(--font-size-29xl);
+  display: inline-block;
+  width: 402px;
+  height: 176px;
+}
+.lynn-name-text-container {
+  top: 704px;
+  left: calc(50% + 370px);
+}
+.lynn-pic-icon,
+.myrah-pic-icon,
+.roxie-pic-icon,
+.shanaya-pic-icon {
+  position: absolute;
+  top: 390px;
+  left: calc(50% - 723px);
+  border-radius: 50%;
+  width: 302px;
+  height: 292px;
+  object-fit: cover;
+}
+.lynn-pic-icon,
+.roxie-pic-icon,
+.shanaya-pic-icon {
+  left: calc(50% - 342px);
+}
+.lynn-pic-icon,
+.shanaya-pic-icon {
+  left: calc(50% + 39px);
+}
+.lynn-pic-icon {
+  left: calc(50% + 420px);
+}
+.img-6585-915-1,
+.logo-icon1 {
+  position: absolute;
+  top: -601px;
+  left: -239px;
+  width: 531px;
+  height: 546px;
+  object-fit: cover;
+}
+.logo-icon1 {
+  top: 23px;
+  left: 27px;
+  width: 144px;
+  height: 140px;
+  cursor: pointer;
+}
+.contact1 {
+  position: relative;
+  background: linear-gradient(180deg, rgba(0, 55, 255, 0.24), #a883d8);
+  width: 100%;
+  height: 1117px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-sen);
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="main-home-page">
+      <img
+        class="homepage-background-image"
+        alt=""
+        src="./public/homepage-background-image@2x.png"
+      />
+
+      <img class="logo-icon" alt="" src="./public/logo@2x.png" />
+
+      <div class="navigation-bar">
+        <div class="about" id="aBOUTText">ABOUT</div>
+        <div class="contact" id="cONTACTText">CONTACT</div>
+      </div>
+      <div class="title">
+        <div class="memory-lane-text">Memory Lane</div>
+        <div class="get-started">
+          <div class="get-started-background"></div>
+          <div class="get-started-text" id="getStartedText">Get Started</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var aBOUTText = document.getElementById("aBOUTText");
+      if (aBOUTText) {
+        aBOUTText.addEventListener("click", function (e) {
+          window.location.href = "./About.html";
+        });
+      }
+      
+      var cONTACTText = document.getElementById("cONTACTText");
+      if (cONTACTText) {
+        cONTACTText.addEventListener("click", function (e) {
+          window.location.href = "./Contact.html";
+        });
+      }
+
+      var getStartedText = document.getElementById("getStartedText");
+      if (getStartedText) {
+        getStartedText.addEventListener("click", function (e) {
+          window.location.href = "./Form.html";
+        });
+      }
+
+
+
+      </script>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+/* Form.css */
+
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body with a purple gradient background */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #8e44ad, #4b3952);
+    height: 100vh;
+    margin: 0;
+}
+
+.capsule {
+    /*background-color: #333;*/
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.form-container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="date"],
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-container textarea {
+    resize: vertical;
+}
+
+.form-container input[type="file"] {
+    margin-top: 5px;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button[type="reset"] {
+    background-color: #e97070;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.form-container button[type="submit"] {
+    background-color: #4caf50;
+}
+
+.form-container button:hover {
+    background-color: #555;
+}

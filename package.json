@@ -1,0 +1,14 @@
+{
+  "name": "memory_lane_5.0",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel ./*.html ",
+    "build": "parcel build ./*.html  --dist-dir ./build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}

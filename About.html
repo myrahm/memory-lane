@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./About.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="about1">
+      <b class="lane-text5">About</b>
+      <b class="welcome-to-memory"
+        >Welcome to Memory Lane Time Capsule, where memories become bridges
+        between today and tomorrow. Our platform lets you craft digital time
+        capsules – a fusion of heartfelt letters, cherished photos, and candid
+        videos – to be discovered at the perfect moment in the future. Whether
+        it's personal milestones, shared wisdom, or capturing the present's
+        magic, you're invited to curate a collection that transcends time. Join
+        us on this journey of preserving moments that bind generations and
+        stories that define legacies. Unveil the future through memories
+        cherished today.</b
+      >
+      <img
+        class="logo-icon2"
+        alt=""
+        src="./public/logo@2x.png"
+        id="logoImage"
+      />
+
+      <img
+        class="homepage-background-image1"
+        alt=""
+        src="./public/homepage-background-image1@2x.png"
+      />
+
+      <div class="join-us-on">Join us on Memory Lane</div>
+    </div>
+
+    <script>
+      var logoImage = document.getElementById("logoImage");
+      if (logoImage) {
+        logoImage.addEventListener("click", function (e) {
+          window.location.href = "./MainHomePage.html";
+        });
+      }
+      </script>
+  </body>
+</html>

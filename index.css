@@ -1,0 +1,96 @@
+.homepage-background-image {
+  position: absolute;
+  height: 100%;
+  width: calc(100% + 451px);
+  top: 0;
+  right: -451px;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logo-icon {
+  position: absolute;
+  top: 56px;
+  left: 50px;
+  width: 144px;
+  height: 140px;
+  object-fit: cover;
+}
+.about,
+.contact {
+  position: absolute;
+  top: 4px;
+  right: 338px;
+  display: inline-block;
+  width: 184px;
+  height: 76px;
+  cursor: pointer;
+}
+.contact {
+  top: 0;
+  right: 0;
+  width: 220px;
+}
+.navigation-bar {
+  position: absolute;
+  top: 80px;
+  right: 113px;
+  width: 522px;
+  height: 80px;
+}
+.memory-lane-text {
+  position: relative;
+  font-weight: 800;
+  text-shadow: 0 0 45px rgba(255, 255, 255, 0.38);
+}
+.get-started-background {
+  position: absolute;
+  width: 81.84%;
+  top: 0;
+  right: 8.96%;
+  left: 9.2%;
+  border-radius: 70px;
+  background-color: rgba(168, 131, 216, 0.75);
+  height: 92px;
+}
+.get-started-text {
+  position: absolute;
+  width: 100%;
+  top: 13px;
+  left: 0;
+  display: inline-block;
+  height: 65px;
+}
+.get-started {
+  position: relative;
+  width: 402px;
+  height: 92px;
+  font-size: var(--font-size-26xl);
+}
+.title {
+  position: absolute;
+  width: 48.2%;
+  top: 438px;
+  right: 25.87%;
+  left: 25.93%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  font-size: var(--font-size-109xl);
+}
+.main-home-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1117px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-26xl);
+  color: var(--color-white);
+  font-family: var(--font-sen);
+}

@@ -13,7 +13,7 @@ This was our project for Ignition Hacks 2023 hackathon
 
 <h2>display</h2>
 
-[<img width="1439" alt="Screenshot 2023-08-26 at 11 07 01 PM" src="https://github.com/myrahm/Memory_Lane/assets/90479534/0b2a271b-0db7-456f-a43e-cf3ef61c6982">]([https://myrahm.github.io/survey-form/](https://myrahm.github.io/Memory_Lane/))
+[<img width="1439" alt="Screenshot 2023-08-26 at 11 07 01 PM" src="https://github.com/myrahm/Memory_Lane/assets/90479534/0b2a271b-0db7-456f-a43e-cf3ef61c6982">](https://myrahm.github.io/Memory_Lane/)
 
 
 

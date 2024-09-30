@@ -2,8 +2,6 @@
 Welcome to [Memory Lane Time Capsule](https://myrahm.github.io/Memory_Lane/), where memories become bridges between today and tomorrow! 
 This was our project for Ignition Hacks 2023 hackathon
 
-![Aesthetic Moodboard Heart Shape Frame Photo Collage](https://github.com/myrahm/Memory_Lane/assets/90479534/b023c00c-1154-4ca1-a22b-bf5c0946bd19)
-
 <h2>Features</h2>
 <ul>
   <li>gradient background</li>
